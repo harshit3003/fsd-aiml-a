@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register Here</title>
+</head>
+<body>
+    <h1>Register Here</h1>
+    <form name="register" method="post" action="register.js">
+        <Label for="name">Name:</Label>
+        <input type="text" name="uname" placeholder="ENETR YOUR NAME" required/><br/>
+
+        <Label for="mobile">Mobile Number: </Label>
+        <input type="mobile" name="mobile" placeholder="ENETR YOUR NAME" required/><br/>
+
+        <Label for="email">Email:</Label>
+        <input type="email" name="email" placeholder="ENETR YOUR NAME" required/><br/>
+
+        <Label for="dob">Date of Birth:</Label>
+        <input type="date" name="dob" placeholder="ENETR YOUR NAME" required/><br/>
+        <Label for="name">Gender:</Label>
+        <input type="radio" name="gender" value="M"/>Male
+        <input type="radio" name="gender" value="F"/>FeMale
+        <br/>
+        <Label for="address">Address:</Label>
+        <textarea row="5" cols="50">
+            ENTER YOUR ADDRESS
+        </textarea>
+        <br/>
+        <Label for="address">Branch</Label>
+        <select name="branch">
+            <option value="select" >SELECT</option>
+            <option value="CSE" >CSE</option>
+            <option value="CSE-AIML" >CSE-AIML</option>
+            <option value="DS" >DS</option>
+            <option value="SC" >CS</option>
+            <option value="ece" >ECE</option>
+        </select>
+        <br/>
+        <Label for="address">SEMESTER</Label>
+        <select name="Sem">
+            <option value="select" >SELECT</option>
+            <option value="1" >I</option>
+            
+            <option value="3" >III</option>
+            
+            <option value="5" >V</option>
+            <option value="7" >VII</option>
+        </select>
+        <br/>
+        <input type="submit" value="Register Here"/>
+
+        <input type="reset" value="Reset"/>
+        
+        
+
+    </form>
+    
+</body>
+</html>
